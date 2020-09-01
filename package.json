@@ -1,0 +1,14 @@
+{
+  "name": "geocoder",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A service to convert address to lat longs",
+  "scripts": {
+    "deploy": "vercel --prod"
+  },
+  "author": "@smcllns",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.0"
+  }
+}
