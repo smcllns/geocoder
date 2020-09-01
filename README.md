@@ -13,8 +13,18 @@ fetch("[your-project-name].vercel.app/api/v1?address=1 Hacker Way, CA");
 Response:
 
 ```json
-geo: {
-    lat: 37.485134,
-    lng: -122.1483749
+{
+  "lat": 37.485134,
+  "lng": -122.1483749
 }
+```
+
+## Deploy your own
+
+1. Get a Google Geocoder API key
+2. Add key as env variable:
+3. Deploy on vercel
+
+```
+GEOCODE_API_KEY=your-key-here
 ```
